@@ -9,8 +9,8 @@
 
 ## 目录结构
 - `ldw_patch/decoded/`：APK 反编译工程（smali 源码）。
-- `ldw_patch/decoded/assets/user_source_candidates.json`：源候选清单（含分类线路）。
-- `ldw_patch/decoded/assets/combined.json`：TVBox 站点配置（sites / lives / parses）。
+- `ldw_patch/decoded/assets/user_source_candidates.json`：源候选清单（含 19 条分类线路）。
+- `ldw_patch/decoded/assets/global_tv_emergency.json`：紧急备用源（占位，可填应急线路）。
 - `ldw_patch/signed/`：已签名交付 APK。
 - `ldw_patch/tools/`：构建 / 签名工具。
 - `update/`：远程更新配置（`update.json` + `update-channel.json`）。
@@ -26,7 +26,7 @@
 
 ## 换源 / 更新配置（另一台设备）
 1. 拉取本仓库：`git clone <本仓库地址>`。
-2. 编辑 `ldw_patch/decoded/assets/user_source_candidates.json`（或 `combined.json`）里的线路。
+2. 编辑 `sources/user_source_candidates.json`（或 `ldw_patch/decoded/assets/user_source_candidates.json`）里的线路。
 3. `git commit && git push` 回仓库。
 4. 客户端从仓库地址加载最新配置，即完成换源 / 更新。
 

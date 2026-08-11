@@ -1,0 +1,29 @@
+# ===== 反编译中间产物（本机保留，可从 APK 重建，体积大不上云） =====
+/ldw_patch/decoded/
+/tv_build/
+/tvnetv1/
+
+# ===== 签名密钥（绝不入仓） =====
+*.keystore
+*.jks
+
+# ===== 构建/成品 APK（可重建，不入库） =====
+*.apk
+
+# ===== WorkBuddy 会话数据 =====
+.workbuddy/
+
+# ===== 诊断 / 临时文件（非工程） =====
+/mumu_*.png
+/mumu_*.txt
+/sd_*.png
+/sd_*.xml
+/ui_*.xml
+/screen_test.png
+/hawk2*.xml
+/hawk2_mod.xml
+/home_now.xml
+/ldw_logcat.txt
+/check_github_src.py
+/find_paths.py
+/LDW-Cinema-Mobile-v250-稳定版.apk

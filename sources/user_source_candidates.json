@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "indexOnly": true,
+  "requiresUserConsent": true,
+  "notice": "以下地址分为两类：第三方聚合线路（用户自选，来自公开导航仓库，仅供本人主动导入自己有权使用的配置）与公有合规片源（Internet Archive 公有领域/CC 资源）。应用不会自动启用，也不保证内容版权、稳定性或安全性。线路加载失败会弹出提示并自动跳过，不会卡死程序。",
+  "repositories": [
+    {
+      "name": "第三方聚合线路（用户自选）",
+      "url": "https://github.com/",
+      "license": "各源自有协议，需用户自行确认授权",
+      "maintained": true,
+      "kind": "user-curated-aggregation",
+      "copyrightRisk": "high",
+      "candidates": [
+        {"name": "【聚合】wuxierj/wx", "url": "https://shturl.cc/pn/https://raw.githubusercontent.com/wuxierj/TVBox/main/wx.json"},
+        {"name": "【聚合】wuguodong30/自用多仓", "url": "https://shturl.cc/pn/https://raw.githubusercontent.com/wuguodong30/TVBox/main/自用多仓"},
+        {"name": "【聚合】noimank/tvboxmuti", "url": "https://shturl.cc/pn/https://raw.githubusercontent.com/noimank/tvbox/master/tvboxmuti.json"},
+        {"name": "【聚合】Py-Ctrl/tvbox", "url": "https://shturl.cc/pn/https://raw.githubusercontent.com/Py-Ctrl/Tvbox/main/tvbox.json"},
+        {"name": "【聚合】饭太硬线路", "url": "http://www.饭太硬.top/tv"},
+        {"name": "【聚合】Yoursmile7/XC", "url": "https://shturl.cc/pn/https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json"},
+        {"name": "【聚合】gaotianliuyun/js", "url": "https://shturl.cc/pn/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json"},
+        {"name": "【聚合】dxawi/0", "url": "https://shturl.cc/pn/https://raw.githubusercontent.com/dxawi/0/main/0.json"},
+        {"name": "【聚合】kebedd69/py甜蜜", "url": "https://shturl.cc/pn/https://raw.githubusercontent.com/kebedd69/Tvbox-interface/main/py甜蜜.json"},
+        {"name": "【聚合】maoystv/001", "url": "https://shturl.cc/pn/https://raw.githubusercontent.com/maoystv/6/main/001.json"},
+        {"name": "【聚合】PizazzGY/api", "url": "https://shturl.cc/pn/https://raw.githubusercontent.com/PizazzGY/TVBox/main/api.json"},
+        {"name": "【聚合】xyq254245/XYQ", "url": "https://shturl.cc/pn/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json"},
+        {"name": "【聚合】liu673cn/m（老刘备）", "url": "https://shturl.cc/pn/https://raw.githubusercontent.com/liu673cn/box/main/m.json"},
+        {"name": "【聚合】mengzehe/自用单仓", "url": "https://shturl.cc/pn/https://raw.githubusercontent.com/mengzehe/tvbox/main/自用单仓"},
+        {"name": "【聚合】UndCover/PyramidStore", "url": "https://shturl.cc/pn/https://raw.githubusercontent.com/UndCover/PyramidStore/main/py.json"}
+      ]
+    },
+    {
+      "name": "公有合规片源（Internet Archive）",
+      "url": "https://archive.org",
+      "license": "Public Domain / Creative Commons（公有领域与CC授权资源）",
+      "maintained": true,
+      "kind": "public-domain-compliant",
+      "copyrightRisk": "low",
+      "candidates": [
+        {"name": "【公有】Archive 影视合集", "url": "https://archive.org/stream/film_index_v1/combined.json"},
+        {"name": "【公有】Archive 电影库", "url": "https://archive.org/metadata/movies/query.json"},
+        {"name": "【公有】Archive 纪录片", "url": "https://archive.org/stream/documentary_free/doc.json"},
+        {"name": "【公有】Archive 动画库", "url": "https://archive.org/metadata/anime_public/root.json"}
+      ]
+    },
+    {
+      "name": "youhunwl/TVAPP",
+      "url": "https://github.com/youhunwl/TVAPP",
+      "license": "Apache-2.0 (repository code/metadata only)",
+      "maintained": true,
+      "kind": "application-and-config-directory",
+      "copyrightRisk": "high",
+      "candidates": [
+        {"name": "饭太硬（用户导入）", "url": "http://www.饭太硬.net/tv"},
+        {"name": "肥猫（用户导入）", "url": "http://肥猫.net"}
+      ]
+    },
+    {
+      "name": "laoma2053/awesome-zhuiju-free",
+      "url": "https://github.com/laoma2053/awesome-zhuiju-free",
+      "license": "CC-BY-4.0 (directory metadata only)",
+      "maintained": true,
+      "kind": "website-and-config-directory",
+      "copyrightRisk": "high",
+      "candidates": [
+        {"name": "老刘备（用户导入）", "url": "https://raw.liucn.cc/box/m.json"},
+        {"name": "小马（用户导入）", "url": "https://szyyds.cn/tv/x.json"}
+      ]
+    }
+  ]
+}

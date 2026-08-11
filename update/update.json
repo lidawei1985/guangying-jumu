@@ -1,0 +1,11 @@
+{
+  "versionCode": 251,
+  "versionName": "1.0.251-mobile",
+  "apk_url": "https://gitee.com/lidawei1985/guangying-jumu/releases/download/v1.0.251/guangyingjumu-v1.0.251.apk",
+  "apk_size": 0,
+  "apk_md5": "",
+  "changelog": "修复短剧集数显示、优化源分类、新增远程更新",
+  "force": false,
+  "minVersionCode": 250,
+  "channels": ["github", "gitee"]
+}

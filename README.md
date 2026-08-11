@@ -13,6 +13,16 @@
 - `ldw_patch/decoded/assets/combined.json`：TVBox 站点配置（sites / lives / parses）。
 - `ldw_patch/signed/`：已签名交付 APK。
 - `ldw_patch/tools/`：构建 / 签名工具。
+- `update/`：远程更新配置（`update.json` + `update-channel.json`）。
+
+## 远程更新（APP 自动检测新版）
+
+1. 发布新版 APK 时，把 APK 上传到 Release，并填写 `update/update.json` 中的版本号、下载链接、MD5。
+2. 推送 `update/` 目录到仓库。
+3. APP 启动/设置页读取 `update-channel.json`，按 GitHub → Gitee 的顺序检测 `update.json`。
+4. 发现新版本后弹出提示，用户确认即下载并安装；支持进度条、后台下载、断点续传、失败自动换源。
+
+> 注意：`update.json` 与 APK 下载链接必须能被未登录客户端直接访问。源码仓库保持私有，但更新文件建议放在公开通道（Gitee 公开仓库 / CDN），否则客户端读不到。
 
 ## 换源 / 更新配置（另一台设备）
 1. 拉取本仓库：`git clone <本仓库地址>`。
